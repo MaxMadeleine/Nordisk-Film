@@ -54,10 +54,10 @@ export const Footer = () => {
   <div className='footerGridItemFour'>
     <h3>Follow us</h3>
     <div className='socialMedia'>
-      <a href="pinterest.com"><img src="src/assets/images/PinterestBlue.svg" alt="Pinterest" /></a>
-      <a href="instagram.com"><img src="src/assets/images/instagramBlue.svg" alt="Instagram" /></a>
-      <a href="facebook.com"><img src="src/assets/images/facebookBlue.svg" alt="Facebook" /></a>
-      <a href="x.com"><img src="src/assets/images/twitterBlue.svg" alt="Twitter" /></a>
+      <a href="pinterest.com"><img src="/src/assets/images/PinterestBlue.svg" alt="Pinterest" /></a>
+      <a href="instagram.com"><img src="/src/assets/images/instagramBlue.svg" alt="Instagram" /></a>
+      <a href="facebook.com"><img src="/src/assets/images/facebookBlue.svg" alt="Facebook" /></a>
+      <a href="x.com"><img src="/src/assets/images/twitterBlue.svg" alt="Twitter" /></a>
     </div>
   </div>
 </div>

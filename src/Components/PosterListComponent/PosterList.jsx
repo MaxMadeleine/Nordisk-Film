@@ -43,14 +43,14 @@ export const PosterList = ({ selectedGenre }) => {
     <div>
       <ul className="posterUl">
         {PosterData.map((Poster) => (
-          <figure key={Poster.id}>
-            <Link to="/Posters">
+          <figure key={Poster.id} >
+            <Link to={`/Posters/${Poster.id}`}>
               <img src={Poster.image_url} alt="Poster image" />
             </Link>
             <figcaption>
               <p>{Poster.name}</p>
               <br />
-              <Link id="a" to="/Posters">
+              <Link id="a" to={`/Posters/${Poster.id}`}>
                 Add To Cart
               </Link>
             </figcaption>

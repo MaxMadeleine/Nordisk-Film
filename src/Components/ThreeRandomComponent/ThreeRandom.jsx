@@ -4,7 +4,7 @@ import './ThreeRandom.scss';
 
 export const ThreeRandom = () => {
   const [randomData, setRandomData] = useState([]);
-
+  
   const getRandomData = async () => {
     if (supabase) {
       const { data, error } = await supabase
